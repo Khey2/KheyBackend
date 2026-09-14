@@ -1,0 +1,28 @@
+version: '3'
+services:
+  mediamtx:
+    image: bluenviron/mediamtx:latest
+    container_name: mediamtx
+    environment:
+      - MTX_API=yes
+      # Usuario 0 (Administrador/Streamer)
+      - MTX_AUTHINTERNALUSERS_0_USER=khey
+      - MTX_AUTHINTERNALUSERS_0_PASS=123
+      # Permisos requeridos para el usuario 0
+      - MTX_AUTHINTERNALUSERS_0_PERMISSIONS_0_ACTION=api
+      - MTX_AUTHINTERNALUSERS_0_PERMISSIONS_1_ACTION=read
+      - MTX_AUTHINTERNALUSERS_0_PERMISSIONS_2_ACTION=publish
+      #- MTX_AUTHINTERNALUSERS_1_USER=
+      #- MTX_AUTHINTERNALUSERS_1_PASS=
+      #- MTX_AUTHINTERNALUSERS_1_PERMISSIONS_0_ACTION=read
+    ports:
+      - "8554:8554"
+      - "1935:1935"
+      - "8888:8888"
+      - "8889:8889"
+      - "9997:9997"
+      # PUERTO CLAVE PARA WEBRTC
+      - "8189:8189/udp"
+    # volumes:
+    #  - ./mediamtx.yml:/mediamtx.yml
+    restart: unless-stopped

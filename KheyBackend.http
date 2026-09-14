@@ -1,0 +1,6 @@
+@KheyBackend_HostAddress = http://localhost:5063
+
+GET {{KheyBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
