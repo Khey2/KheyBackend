@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KheyBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45f03bc63c973dbe614210873f04f557f24e07af")]
 [assembly: System.Reflection.AssemblyProductAttribute("KheyBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KheyBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
