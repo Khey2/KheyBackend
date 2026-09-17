@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "KheyBackend.Controllers.AuthController",
+    "Method": "login",
+    "RelativePath": "auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "KheyBackend.DTOS.LoginRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KheyBackend.Controllers.AuthController",
+    "Method": "logout",
+    "RelativePath": "auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KheyBackend.Controllers.AuthController",
     "Method": "register",
     "RelativePath": "auth/register",
     "HttpMethod": "POST",
@@ -13,6 +39,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KheyBackend.Controllers.AuthController",
+    "Method": "verifyEmail",
+    "RelativePath": "auth/verify-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -24,8 +24,8 @@ builder.Services.AddDbContext<AppDbContext>(
         // The following three options help with debugging, but should
         // be changed or removed for production.
         .LogTo(Console.WriteLine, LogLevel.Information)
-        .EnableSensitiveDataLogging()
-        .EnableDetailedErrors()
+        //.EnableSensitiveDataLogging()
+        //.EnableDetailedErrors()
 );
 
 
@@ -71,7 +71,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme )
 
                     if( isRevoked )
                     {
-                        context.Fail("Este token ha sido revokado (logout)");
+                        context.Fail("Este token ha sido revokado");
+                        return;
                     }
                 }
             };

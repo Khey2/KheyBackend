@@ -114,7 +114,6 @@ C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Deb
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\MailKit.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
@@ -122,3 +121,4 @@ C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Deb
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\msilv\OneDrive\Desktop\khey_app_project\KheyBackend\KheyBackend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

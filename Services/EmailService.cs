@@ -29,6 +29,8 @@ namespace KheyBackend.Services
             email.Subject = subject;
             email.Body = new TextPart(TextFormat.Html) { Text = bodyHtml };
 
+
+
             using var smtp = new SmtpClient();
 
             // Conexión asíncrona a Mailtrap
